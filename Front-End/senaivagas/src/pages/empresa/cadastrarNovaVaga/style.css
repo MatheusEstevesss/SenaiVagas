@@ -1,0 +1,53 @@
+.center-vaga h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+    font-size: 24px;
+    font-weight: bold;
+    color: #292929;
+}
+
+.row-vaga {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.column-vaga {
+    display: flex;
+    flex-direction: column;
+    padding: 8vh;
+}
+
+.row-vaga label {
+    font-size: 16px;
+}
+
+.row-vaga input, select {
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #000;
+}
+
+.select {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.1vh;
+}
+
+@media only screen and (max-width: 660px) {
+    .row-vaga {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .column-vaga {
+        padding: 0;
+    }
+    
+    .center-vaga h1 {
+        margin-bottom: 6vh;
+    }
+}

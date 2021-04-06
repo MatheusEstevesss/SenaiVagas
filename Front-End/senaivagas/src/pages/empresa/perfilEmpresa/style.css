@@ -1,0 +1,57 @@
+#main-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6vh 0 10vh 0;
+    height: 90vh;
+    
+}
+
+#lado-direitoPerfilEmpresa {
+    background-color: #EBEBEB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3020833333333333vw;
+    width: 50vw;
+    border-radius: 4px;
+    padding: 2vw;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, inset -1px 0px 32px -18px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, inset -1px 0px 32px -18px rgba(0,0,0,0);
+}
+
+#lado-direitoPerfilEmpresa img {
+    width: 30%;
+    margin: 0;
+    padding: 0;
+}
+
+#container-dados-esq-dir {
+    display: flex;
+    justify-content: space-around;
+    width: inherit;
+}
+
+.dado-usuario {
+    margin: 4vh 0vw 5vh 0vw;
+    width: max-content;
+    max-width: 30vw;
+}
+
+#razaoSocial {
+    color: red;
+    font-size: 2vw;
+}
+
+#apresentacao-txt-box {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#apresentacao-txt-box p {
+    width: fit-content;
+}

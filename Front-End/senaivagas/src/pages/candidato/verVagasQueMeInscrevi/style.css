@@ -1,0 +1,115 @@
+#mainMinhasVagas {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+
+.container-geral-minhasVagas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-individual-minhasVagas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+}
+
+.container-individual-minhasVagas img {
+    width: 12%;
+    margin: 0;
+    padding: 0;
+    margin-right: 5vh;
+}
+
+.cargo-text {
+    background-color: #EBEBEB;
+    text-align: center;
+    border-radius: 4px;
+    padding: 0.4vw 0.4vh 0.4vw 0.4vh;
+    width: 20vw;
+    font-weight: bold;
+}
+
+.nome-empresa-text {
+    background: #000000;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 1vh;
+    padding: 0.4vw 0.4vh 0.4vw 0.4vh;
+    width: 20vw;
+    font-weight: bold;
+}
+
+.container-2 {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5vh;
+}
+
+.container-4 {
+    display: flex;
+    background-color: #EBEBEB;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw 2vh 1vw 2vh;
+    border-radius: 4px;
+    width: 7vw;
+}
+
+
+
+.local-title {
+    color: #F55050;
+    font-weight: bold;
+    margin: 0;
+}
+
+.local-text {
+    color: black;
+    margin: 0;
+    text-align: center;
+}
+
+.habilidades-title {
+    color: #F55050;
+    font-weight: bold;
+    text-align: start;
+    margin: 0;
+}
+
+.habilidades-text {
+    color: black;
+    margin: 0;
+    width: 12vw;
+}
+
+.alinha-linha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-div {
+    border: 1px solid #509BF5;
+    padding: 0;
+    margin: 0;
+    width: 55vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
